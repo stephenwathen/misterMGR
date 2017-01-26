@@ -1,0 +1,287 @@
+html{
+	z-index: 0;
+	font-family:'Arsenal', sans-serif;
+}
+
+#container{
+	width:100%;
+	position:relative;
+}
+
+.title{
+	position:relative;
+	z-index:-1;
+	height:500px;
+	margin:.5em;
+	width:100%;
+	align-content: center;
+	margin:auto;
+	background-image:url(https://cdn.shopify.com/s/files/1/1345/5359/t/1/assets/slide_1_1024x1024.jpg?15520437896330601835);
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.title h1{
+	width:100%;
+	font-size:10em;
+	color:white;
+	font-family:helvetica;
+	position:fixed;
+	position-top:300px;
+	text-align: center;
+	z-index: -2
+}
+
+.nav{
+	color:white;
+	background-color:black;
+	font-size:2.3em;
+	margin:0em;
+	height:150px;
+	width:100%;
+	align-content:center;
+	margin:auto;
+}
+
+.nav ul{
+	text-align: center;
+	padding-top:50px;
+	padding-bottom:90px;
+}
+
+.nav ul li{
+	display:inline;
+	padding:.2em;
+}
+
+.nav a{
+	color:white;
+}
+
+a:hover{
+	color:hotpink;
+	text-decoration:underline;
+	font-size-adjust:2.5em;
+}
+
+.banner{
+	position:relative;
+	height:500px;
+	width:100%;
+	align-content: center;
+	background-image:url(https://cdn.shopify.com/s/files/1/1345/5359/t/1/assets/slide_2_1024x1024.jpg?15520437896330601835);
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:'Arsenal', sans-serif;
+    font-style: italic;
+    font-weight:200;
+}
+.banner img{
+	width:100%;
+}
+
+.banner h2{
+	text-align: center;
+	padding-top:70px;
+	font-size: 8em;
+	color:#330019;
+}
+
+.banner h4{
+	text-align: center;
+	padding-top: 50px;
+	font-size:5em;
+	color:#330010;
+}
+
+.main{
+	width:100%;
+	position:relative;
+	align-content:center;
+}
+
+a{
+	text-decoration:none;
+}
+.grid_left{
+	float:left;
+	width:49%;
+}
+.grid_right{
+	float:right;
+	width:49%;
+}
+
+.grid_item{
+	margin-top:30px;
+	width:49%;
+
+}
+
+footer{
+	height:150px;
+}
+
+#footer{
+	color:white;
+	position:relative;
+	clear:both;
+	width:100%;
+	height:150px;
+	background-image:url(https://cdn.shopify.com/s/files/1/1345/5359/t/1/assets/slide_3_1024x1024.jpg?15520437896330601835);
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#footer ul{
+	list-style-type: none;
+	display: inline;
+	text-align:center;
+	font-size:2em;
+
+}
+
+#footer ul li{
+
+}
+
+.copyright{
+	font-size:1.5em;
+	text-align:center;
+	padding-top:70px;
+
+}
+
+/*NEWSLETTER PAGE*/
+
+.newscont{
+	position:relative;
+	height:350px;
+	width:100%;
+	align-content: center;
+	background-image:url(https://cdn.shopify.com/s/files/1/1345/5359/products/blu_blk_cross_T_grande.jpg?v=1482041292);
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size:3em;
+    color:white;
+    text-align:center;
+    padding-top:200px;
+    background-width:100%;
+
+}
+
+/*about page*/
+.about{
+	position:relative;
+	height:500px;
+	width:100%;
+	align-content: center;
+	background-image:url(https://cdn.shopify.com/s/files/1/1345/5359/products/peppered_gryblk_T_grande.jpg?v=1482041227);
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size:3em;
+    color:white;
+    text-align:center;
+    padding-top:200px;
+    background-width:100%;
+
+}
+
+.social_media img{
+	margin:25px;
+	height:128px;
+	width:128px;
+}
+/*style the modal*/
+.modal{
+	width:55%;
+	height:400px;
+	background-color:gray;
+	display:none;
+	z-index: 2;
+}
+
+@media only screen and (max-width:1181px){
+	.grid_left{
+		position:relative;
+		width:49%;
+	}
+	.grid_left img{
+		width:204%;
+		height:auto;
+	}	
+	.grid_right{
+		position:relative;
+		width:49%;
+	}
+	.grid_right img{
+		width:204%;
+		height:auto;
+	}	
+	.title{
+		height:250px;
+	}
+	.title h1{
+		font-size:10em;
+	}
+	.banner{
+		height:250px;
+	}
+	.banner h2{
+		font-size:4em;
+	}
+	.banner h4{
+		font-size:2.5em;
+	}
+	.main{
+		position:relative;
+		width:100%;
+	}	
+
+}
+
+@media only screen and (max-width:600px){
+	img{
+		width:100%;
+		height:auto;
+	}
+	.title{
+		height:250px;
+	}
+	.title h1{
+		font-size:5em;
+	}
+	.banner{
+		height:125px;
+	}
+	.banner h2{
+		padding-top:17.5px;
+		font-size:2em;
+	}
+	.banner h4{
+		padding-top:12.5px;
+		font-size:1.25em;
+	}	
+	.main{
+		width:100%;
+	}
+	.grid_left{
+		width:100%;
+		margin:auto;
+		clear:both;
+	}
+	.grid_right{
+		width:100%;
+		clear:both;
+	}
+}
